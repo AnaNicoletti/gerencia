@@ -1,9 +1,17 @@
-.imagemDeFundo {
-    filter: opacity(60%);
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background-image: url(luz.png);
+body{
+    filter: opacity(80%);
+    background-image: url("luz.jpg")
+}
+
+.link {
+    background-color: rgb(80, 80, 80);
+    border-radius: 10px;
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+.botao{
+    color: white;
 }
 
 #container {
@@ -12,9 +20,10 @@
 }
 
 .tudo{
-    background-color: rgb(29, 29, 29);
+    background-color: rgb(80, 80, 80);
     border-radius: 10px;
     margin-top: 300px;
+    margin-right: 50px;
 }
 
 #titulo {
