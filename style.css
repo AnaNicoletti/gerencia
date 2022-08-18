@@ -1,8 +1,9 @@
-.img {
+.imagemDeFundo {
     filter: opacity(60%);
     position: absolute;
     height: 100%;
     width: 100%;
+    background-image: url(luz.png);
 }
 
 #container {
@@ -11,18 +12,24 @@
 }
 
 .tudo{
-    background-color: rgb(66, 66, 66);
+    background-color: rgb(29, 29, 29);
     border-radius: 10px;
-    margin-top: 340px;
+    margin-top: 300px;
 }
 
 #titulo {
     text-align: center;
-    color: rgb(181, 234, 255);
+    color: rgb(255, 255, 255);
 }
 
 #lista {
+    margin-left: 50px;
     padding: 0;
+    color: white;
+}
+
+#entrada {
+    margin-left: 50px;
     color: white;
 }
 
@@ -55,4 +62,8 @@
     font-size: larger;
     text-align: center;
     font-weight: bold;
+}
+
+.botao {
+    color: black;
 }
