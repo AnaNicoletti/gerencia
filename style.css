@@ -1,11 +1,58 @@
 .img {
     filter: opacity(60%);
     position: absolute;
+    height: 100%;
+    width: 100%;
 }
 
-.titulo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
+#container {
+    padding: 30px;
+    margin: 10px;
+}
+
+.tudo{
+    background-color: rgb(66, 66, 66);
+    border-radius: 10px;
+    margin-top: 340px;
+}
+
+#titulo {
+    text-align: center;
+    color: rgb(181, 234, 255);
+}
+
+#lista {
+    padding: 0;
+    color: white;
+}
+
+#btnEditar {
+    font-size: small;
+    vertical-align: text-top;
+    cursor: pointer;
+}
+
+#lista li{
+    padding: 3px;
+    font-size: large;
+    list-style-type: none;
+    margin: -1px 0 0 -1px;
+}
+
+#lista li:hover{
+    font-weight: bold;
+}
+
+#nome {
+    margin-top: 1px;
+    font-size: larger;
+    text-align: center;
+    font-weight: bold;
+}
+
+#unidade {
+    margin-top: 3px;
+    font-size: larger;
+    text-align: center;
+    font-weight: bold;
 }
