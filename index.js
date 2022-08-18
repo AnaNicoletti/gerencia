@@ -49,7 +49,7 @@ function renderizar(){
 
     // criar botao remover
     let botao = document.createElement("span");
-    botao.textContent = "🌵";
+    botao.textContent = "⭐";
     botao.className = "btnRemover";
     botao.onclick = function(){
         removerItem(i);
