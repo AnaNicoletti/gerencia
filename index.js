@@ -4,13 +4,7 @@ let modelo = {
         "Sirius",
         "Canopus",
         "Alpha Centauri / Rigel Kent",
-        "Arcturus",
-        "Vega",
-        "Capella",
-        "Rigel",
-        "Procyon",
-        "Achernar",
-        "Betelgeuse"
+        "Arcturus"
     ]
 }
 
